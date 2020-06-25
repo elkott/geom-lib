@@ -8,6 +8,7 @@ CONFIG -= qt
 
 HEADERS += \
         ../UCGeomLib/include/point_utils/pointutils.h \
+        tst_armadillo_tests.h \
         tst_pointutils.h \
         tst_ucgeomlib.h
 

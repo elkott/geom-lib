@@ -8,10 +8,9 @@
 using namespace std;
 using namespace testing;
 
-TEST(UCGeomLib, Test1)
+TEST(UCGeomLib, dummy)
 {
-    EXPECT_EQ(1, 1);
-    ASSERT_THAT(0, Eq(0));
+    // Test
+    EXPECT_EQ(1.0, 1.0);
 }
-
 #endif // TST_UCGEOMLIB_H

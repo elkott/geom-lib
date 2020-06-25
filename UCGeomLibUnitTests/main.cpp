@@ -1,5 +1,6 @@
 #include "tst_ucgeomlib.h"
 #include "tst_pointutils.h"
+#include "tst_armadillo_tests.h"
 
 #include <gtest/gtest.h>
 

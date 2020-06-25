@@ -9,6 +9,7 @@ QT       -= core gui
 TARGET = UCGeomLib
 TEMPLATE = lib
 CONFIG += staticlib
+CONFIG += c++17
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which has been marked as deprecated (the exact warnings
@@ -27,7 +28,7 @@ SOURCES += \
 
 HEADERS += \
         include/point_utils/pointutils.h \
-        include/typedef.h \
+        include/preambles.h \
         ucgeomlib.h
 unix {
     target.path = /usr/lib
